@@ -1,10 +1,13 @@
 import React from "react";
 import NavBar from "../components/NavBar.js";
+// Navigation Bar added to in each of pages for users to navigate between pages easily 
 
 function Login() {
   return (
     <>
-      <header>{/* Save space for NavBar */}</header>
+      <header>
+        <NavBar />
+      </header>
       <main>
         <h1>Login</h1>
         <form>

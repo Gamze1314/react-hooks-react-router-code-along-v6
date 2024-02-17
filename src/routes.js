@@ -28,3 +28,6 @@ const routes = [
 ];
 
 export default routes;
+
+// 3 static and one dynamic routes added , ErrorPage linked to each route
+// specify paths for component rendering in routes.js => seperate files, or you could do it in index.js

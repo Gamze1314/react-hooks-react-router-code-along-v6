@@ -5,7 +5,10 @@ import NavBar from "../components/NavBar";
 function UserProfile() {
   const [user, setUser] = useState({});
   const params = useParams();
-  const userId = params.id;
+  // useParams returns a key/value pair. key=> is the parameter for the route /profile/1 , 1 is the value of params.
+  console.log(params)
+  const userId = params.id; // 1,2,3 
+  console.log(userId)
 
   useEffect(() => {
     fetch(`http://localhost:4000/users/${userId}`)

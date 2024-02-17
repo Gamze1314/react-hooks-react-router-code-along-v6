@@ -25,3 +25,4 @@ function NavBar() {
 
 
 export default NavBar
+// NavLinks allow us to add styling => adds a tag into DOM. takes to property => Link to "somewhere"
